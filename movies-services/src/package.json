@@ -1,0 +1,25 @@
+{
+  "name": "movies-service",
+  "version": "1.0.0",
+  "description": "Provide movie info.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ricardo-Tonietti/node-mongo-cinema.git"
+  },
+  "author": "Ricardo Tonietti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ricardo-Tonietti/node-mongo-cinema/issues"
+  },
+  "homepage": "https://github.com/Ricardo-Tonietti/node-mongo-cinema#readme",
+  "dependencies": {
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.3"
+  }
+}
